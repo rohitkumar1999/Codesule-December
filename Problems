@@ -118,3 +118,119 @@ Time Limit: 5 sec
 
 ________________________________________________________________________________________________________________________________________
 
+FAVDICE - COUPON COLLECTOR PROBLEM
+BuggyD loves to carry his favorite die around. Perhaps you wonder why it's his favorite? Well, his die is magical and can be transformed into an N-sided unbiased die with the push of a button. Now BuggyD wants to learn more about his die, so he raises a question:
+
+What is the expected number of throws of his die while it has N sides so that each number is rolled at least once?
+
+
+Input Format:
+The first line of the input contains an integer t, the number of test cases. t test cases follow.
+
+Each test case consists of a single line containing a single integer N - the number of sides on BuggyD's die
+
+Constraints:
+1 <= T <= 15
+1 <= N <= 1000
+Output Format:
+For each test case, print one line containing the expected number of times BuggyD needs to throw his N-sided die so that each number appears at least once. The expected number must be accurate to 2 decimal digits.
+
+Sample Input:
+2
+1
+12
+Sample Output:
+1.00
+37.24
+
+______________________________________________________________________________________________________________________________________
+
+MATH DAY
+Math Day is being celebrated at Coding Blocks. So Prateek Bhaiya rolled out a contest on Maths Problems. Here goes one.
+Given three positive integers A,N,P. Compute AN! %P.
+
+
+
+Input Format:
+The first line of the input gives the number of test cases, T. T lines follow. 
+Each line contains three integers A, N and P, as described above.
+
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ A ≤ 10^5.
+1 ≤ N ≤ 10^5.
+1 ≤ P ≤ 10^5.
+Output Format:
+For every test case, print the answer in a new line.
+
+Sample Input:
+2
+2 1 2
+3 3 2
+Sample Output:
+0
+1
+Explanation:
+In first case, the answer is the remainder when 2^1! = 2 is divided by 2, which is 0. In second case , the answer is the remainder when 3^3! = 36 = 729 is divided by 2, which is 1.
+
+
+________________________________________________________________________________________________________________________________________
+
+FUNKY CHESS BOARD
+A knight is a piece used in the game of chess. The chessboard itself is square array of cells. Each time a knight moves, its resulting position is two rows and one column, or two columns and one row away from its starting position. Thus a knight starting on row r, column c – which we’ll denote as (r,c) – can move to any of the squares (r-2,c-1), (r-2,c+1), (r-1,c-2), (r-1,c+2), (r+1,c-2), (r+1,c+2), (r+2,c-1), or (r+2,c+1). Of course, the knight may not move to any square that is not on the board.
+
+Suppose the chessboard is not square, but instead has rows with variable numbers of columns, and with each row offset zero or more columns to the right of the row above it. The figure to the left illustrates one possible configuration. How many of the squares in such a modified chessboard can a knight, starting in the upper left square (marked with an asterisk), not reach in any number of moves without resting in any square more than once? Minimize this number.
+
+
+
+If necessary, the knight is permitted to pass over regions that are outside the borders of the modified chessboard, but as usual, it can only move to squares that are within the borders of the board.
+
+
+Input Format:
+First line contains an integer n, representing the side of square of chess board. The next n line contains n integers separated by single spaces in which jjth integer is 1 if that cell(i,j) is part of chessboard and 0 otherwise.
+
+Constraints:
+The maximum dimensions of the board will be 10 rows and 10 columns. That is, any modified chessboard specified by the input will fit completely on a 10 row, 10 column board. 
+Output Format:
+Print the minimum number of squares that the knight can not reach.
+
+Sample Input:
+3
+1 1 1
+1 1 1
+1 1 1
+Sample Output:
+1
+Time Limit: 1 sec
+
+_________________________________________________________________________________________________________________________________________
+
+COUNT NUMBER OF BINARY STRINGS
+You are provided an integers N. You need to count all possible distinct binary strings of length N such that there are no consecutive 1’s.
+
+
+Input Format:
+First line contains integer t which is number of test case. For each test case, it contains an integer n which is the the length of Binary String.
+
+Constraints:
+1<=t<=100
+1<=n<=100
+Output Format:
+Print the number of all possible binary strings.
+
+Sample Input:
+2
+2
+3
+Sample Output:
+3
+5
+Explanation:
+1st test case : 00, 01, 10 2nd test case : 000, 001, 010, 100, 101
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
